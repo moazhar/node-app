@@ -1,6 +1,7 @@
 #!/bin/sh
 
-ssh ubuntu@52.207.246.56 <<EOF
+ssh ubuntu@52.207.246.56 
+sudo sudo su - jenkins<<EOF
     cd ~/node-app
     git pull origin master
     curl -o-   https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh    | bash
