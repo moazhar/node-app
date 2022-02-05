@@ -1,0 +1,28 @@
+{
+  "name": "node-app",
+  "version": "1.0.0",
+  "description": "This is Repository for Node Application in Purpose of Jenkins Implementation with Node JS App",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moazhar/node-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moazhar/node-app/issues"
+  },
+  "homepage": "https://github.com/moazhar/node-app#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "mocha": "^9.2.0",
+    "supertest": "^6.2.2"
+  }
+}
